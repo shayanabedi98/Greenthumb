@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(233, 233, 233);
+}
+
+.card {
+    text-align: center;
+    display: inline-block;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+}

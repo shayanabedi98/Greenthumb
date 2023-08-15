@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(233, 233, 233);
+}
+
+.container {
+    text-align: center;
+    background-color: rgb(114, 114, 114);
+}
+
+.card {
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    border-radius: 5px;
+    width: 330px;
+    padding: 20px 0 10px 0;
+    box-shadow: 0 0 3px 0 black;
+    margin: 0 20px;
+}
+
+.card img {
+    height: 300px;
+    width: 300px;
+}
