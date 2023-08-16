@@ -102,7 +102,6 @@ nav a:visited {
 
 .card:hover {
     border: 2px solid rgba(85, 85, 85, 0.5);
-    background-color: black;
     transition: ease-in-out 0.6s;
 }
 
@@ -112,7 +111,6 @@ nav a:visited {
 
 .listen {
     text-align: center;
-    background-color: rgb(22, 22, 22);
 }
 
 .listen h5 {
@@ -121,23 +119,20 @@ nav a:visited {
 
 .listen-video {
     display: inline-block;
-    width: 49%;
-    height: 70%;
-    vertical-align: top;
-    margin: 50px auto;
+    width: 40%;
+    border: 1px solid;
 }
 
 .listen-video video {
-    width: 40%;
-    height: 100%;
+    width: 65%;
 }
 
 .listen-content {
     display: inline-block;
     width: 50%;
+    border: 1px solid;
     text-align: center;
-    vertical-align: top;
-    margin: 50px auto;
+    transform: translateY(-300px);
 }
 
 .listen-content img {
@@ -145,33 +140,18 @@ nav a:visited {
     display: block;
 }
 
-.listen-content h5 {
-    margin-top: 0;
-}
-
 .listen-content p {
     font-size: 26px;
     width: 80%;
-    margin-left: 10%;
-    line-height: 30px;
 }
 
 #spotify {
     height: 100px;
     display: inline-block;
-    transform: translateY(16px);
+    transform: translateY(18px);
 }
 
 #apple {
     height: 70px;
     display: inline-block;
-}
-
-.song-link {
-    margin: 0 20px;
-}
-
-footer nav ul {
-    text-align: center;
-    transform: translateY(0);
 }

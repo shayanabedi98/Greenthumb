@@ -124,7 +124,7 @@ nav a:visited {
     width: 49%;
     height: 70%;
     vertical-align: top;
-    margin: 50px auto;
+    margin-top: 50px;
 }
 
 .listen-video video {

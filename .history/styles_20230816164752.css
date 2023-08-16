@@ -102,7 +102,6 @@ nav a:visited {
 
 .card:hover {
     border: 2px solid rgba(85, 85, 85, 0.5);
-    background-color: black;
     transition: ease-in-out 0.6s;
 }
 
@@ -112,7 +111,7 @@ nav a:visited {
 
 .listen {
     text-align: center;
-    background-color: rgb(22, 22, 22);
+    height: 100vh;
 }
 
 .listen h5 {
@@ -123,12 +122,10 @@ nav a:visited {
     display: inline-block;
     width: 49%;
     height: 70%;
-    vertical-align: top;
-    margin: 50px auto;
 }
 
 .listen-video video {
-    width: 40%;
+    width: 80%;
     height: 100%;
 }
 
@@ -136,8 +133,7 @@ nav a:visited {
     display: inline-block;
     width: 50%;
     text-align: center;
-    vertical-align: top;
-    margin: 50px auto;
+    top: 0;
 }
 
 .listen-content img {
@@ -169,9 +165,4 @@ nav a:visited {
 
 .song-link {
     margin: 0 20px;
-}
-
-footer nav ul {
-    text-align: center;
-    transform: translateY(0);
 }
