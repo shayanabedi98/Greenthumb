@@ -10,14 +10,9 @@ body {
     background-color: black;
     color: rgb(233, 233, 233);
     font-family: 'Josefin Sans', sans-serif;
-    opacity: 0;
 }
 header {
     z-index: 1;
-}
-
-a {
-    cursor: pointer;
 }
 
 nav {

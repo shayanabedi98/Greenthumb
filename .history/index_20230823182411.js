@@ -48,14 +48,6 @@ document.querySelector('#contact').addEventListener('click', function() {
     }, 200)
 })
 
-document.querySelector('#footer-contact').addEventListener('click', function() {
-    document.body.style.transition = '0.2s';
-    document.body.style.opacity = '0';
-    setTimeout(function() {
-        window.location = 'contact.html';
-    }, 200)
-})
-
 document.querySelector('#logo').addEventListener('click', function() {
     document.body.style.transition = '0.2s';
     document.body.style.opacity = '0';

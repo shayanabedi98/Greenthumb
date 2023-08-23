@@ -1,6 +1,7 @@
 /* All pages */
 
 html {
+    animation: transitionIn 0.1s;
 }
 
 body {
@@ -10,14 +11,9 @@ body {
     background-color: black;
     color: rgb(233, 233, 233);
     font-family: 'Josefin Sans', sans-serif;
-    opacity: 0;
 }
 header {
     z-index: 1;
-}
-
-a {
-    cursor: pointer;
 }
 
 nav {
@@ -317,4 +313,24 @@ textarea {
     border: none;
     cursor: pointer;
     box-shadow: 0 0 5px 0 rgb(121, 121, 121);
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes transitionOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }

@@ -1,5 +1,25 @@
 /* All pages */
 
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes transitionOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
 html {
 }
 
@@ -9,15 +29,11 @@ body {
     padding: 0;
     background-color: black;
     color: rgb(233, 233, 233);
-    font-family: 'Josefin Sans', sans-serif;
-    opacity: 0;
+    font-family: 'Josefin Sans', sans-serif;animation: transitionIn 0.75s;
+    animation: transitionOut 0.75s;
 }
 header {
     z-index: 1;
-}
-
-a {
-    cursor: pointer;
 }
 
 nav {

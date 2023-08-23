@@ -16,10 +16,6 @@ header {
     z-index: 1;
 }
 
-a {
-    cursor: pointer;
-}
-
 nav {
     height: 110px;
 }
