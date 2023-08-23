@@ -291,14 +291,13 @@ textarea {
 
 .contact {
     text-align: center;
-    height: 700px;
+    height: 800px;
 }
 
 .contact p {
     width: 60%;
     font-size: 24px;
     margin-left: 17.5%;
-    margin-bottom: 40px;
 }
 
 .contact button {
