@@ -97,6 +97,16 @@ footer nav ul {
     margin: auto;
 }
 
+.banner-content h1:hover{
+    font-size: 50px;
+    color: rgb(179, 179, 179);
+    transition: 2s;
+}
+
+.banner-content h1:not(:hover) {
+    transition: 1s;
+}
+
 .banner-content h1 {
     font-size: 46px;
     opacity: 90%;
@@ -426,12 +436,8 @@ textarea {
 }
 
 @media (max-width:700px) {
-    nav ul {
-        transform: translate(-30px, 0px);
-    }
-
-    nav a {
-        font-size: 18px;
+    nav li {
+        display: inline-block;
     }
 
     .card {
@@ -463,96 +469,5 @@ textarea {
         font-size: 18px;
         width: 90%;
         margin-left: 5%;
-    }
-}
-
-@media (max-width:600px) {
-    header {
-        height: 150px;
-    }
-
-    .banner-content {
-        width: 90%;
-    }
-
-    .banner-content h1{
-        font-size: 30px;
-    }
-
-    .banner-content h2{
-        font-size: 20px;
-        line-height: 28px;
-    }
-
-    nav ul {
-        text-align: center;
-        transform: translate(0px, 10px);
-        padding: 0;
-    }
-
-    nav img {
-        position: relative;
-    }
-
-    #logo {
-        padding: 0;
-        width: auto;
-    }
-}
-
-@media (max-width: 533px) {
-    .card {
-        height: 320px;
-        width: 280px;
-        margin: 20px 0;
-    }
-    .card img {
-        height: 250px;
-        width: 250px;
-    }
-}
-
-@media (max-width: 400px) {
-    .listen-video video {
-        width: 65%;
-        margin-bottom: 55px;
-    }
-
-    .listen-content p {
-        font-size: 16px;
-    }
-
-    #spotify {
-        height: 30px;
-        transform: translateY(5px);
-    }
-    
-    #apple {
-        height: 20px;
-    }
-}
-
-@media (max-width: 300px) {
-    nav a {
-        font-size: 14px;
-    }
-
-    nav img {
-        width: 230px;
-        height: 65px;
-    }
-
-    .card {
-        height: 290px;
-        width: 250px;
-        margin: 20px 0;
-    }
-    .card img {
-        height: 210px;
-        width: 210px;
-    }
-
-    .listen-content p {
-        font-size: 14px;
     }
 }

@@ -521,27 +521,9 @@ textarea {
     .listen-content p {
         font-size: 16px;
     }
-
-    #spotify {
-        height: 30px;
-        transform: translateY(5px);
-    }
-    
-    #apple {
-        height: 20px;
-    }
 }
 
 @media (max-width: 300px) {
-    nav a {
-        font-size: 14px;
-    }
-
-    nav img {
-        width: 230px;
-        height: 65px;
-    }
-
     .card {
         height: 290px;
         width: 250px;
@@ -550,9 +532,5 @@ textarea {
     .card img {
         height: 210px;
         width: 210px;
-    }
-
-    .listen-content p {
-        font-size: 14px;
     }
 }

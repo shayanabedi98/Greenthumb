@@ -51,7 +51,7 @@ document.querySelector('#footer-contact').addEventListener('click', function() {
     }, 200)
 })
 
-document.querySelector('#logo').addEventListener('click', function() {
+document.querySelector('.logo-container img').addEventListener('click', function() {
     document.body.style.transition = '0.2s';
     document.body.style.opacity = '0';
     setTimeout(function() {

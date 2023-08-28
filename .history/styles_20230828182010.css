@@ -521,20 +521,11 @@ textarea {
     .listen-content p {
         font-size: 16px;
     }
-
-    #spotify {
-        height: 30px;
-        transform: translateY(5px);
-    }
-    
-    #apple {
-        height: 20px;
-    }
 }
 
 @media (max-width: 300px) {
-    nav a {
-        font-size: 14px;
+    nav li {
+        font-size: 12px;
     }
 
     nav img {
