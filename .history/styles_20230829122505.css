@@ -263,10 +263,6 @@ audio {
     padding: 10px;
 }
 
-.audio {
-    width: 150px;
-}
-
 /* Contact page */
 
 
@@ -287,7 +283,7 @@ textarea {
     padding: 5px 10px;
     resize: none;
     padding: 5px 10px;
-    width: 625px;
+    width: 620px;
     height: 170px;
     font-size: 20px;
     margin-top: 5px;
@@ -300,9 +296,9 @@ textarea {
 }
 
 .contact p {
-    width: 70%;
+    width: 60%;
     font-size: 24px;
-    margin-left: 15%;
+    margin-left: 17.5%;
     margin-bottom: 40px;
 }
 
@@ -317,5 +313,3 @@ textarea {
     cursor: pointer;
     box-shadow: 0 0 5px 0 rgb(121, 121, 121);
 }
-
-/* media queries found in media.css */
